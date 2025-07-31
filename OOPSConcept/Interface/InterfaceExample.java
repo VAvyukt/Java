@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package JavaBasics.OOPSConcept.Interface;
+
+/**
+ *
+ * @author Nikhil.Agrawal
+ */
+interface interfaceDemo
+{
+   public abstract  void display();
+}
+
+public class InterfaceExample implements interfaceDemo
+{
+    public void display()
+    {
+        System.out.println("This is interface method");
+    }
+}
