@@ -43,6 +43,7 @@ public class ArrayMostRepeated {
                 element=array[i];
             }  
         }
-        System.out.println("The greates number is " +element+ " and it's repeated "+max+ " time(s).");
+        System.out.println("The greatest number is " +element+ " and it's repeated "+max+ " time(s).");
     }  
 }
+
