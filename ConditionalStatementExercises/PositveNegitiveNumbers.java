@@ -18,10 +18,11 @@ public class PositveNegitiveNumbers {
         double a=PosNeg.nextDouble();
         if(a>0) {
             System.out.println("Positve Number");}
-        else if (a>0) {
+        else if (a<0) {
             System.out.println("Negitive Number");} 
         else {
             System.out.println("You entered 0");}
 }
 }
+
 
