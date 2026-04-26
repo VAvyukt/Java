@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.FinalKeyword.FinalClass;
+package FinalKeyword.FinalClass;
 
 /**
  *
  * @author Nikhil.Agrawal
  */
-public class Child // When you have a final class it will show error when you extend the FinalClass.
+public class Child extends FinalClass// When you have a final class it will show error when you extend the FinalClass.
 {
 public static void main (String args[])
 {

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Homework;
+package Homework;
 
 /**
  *
@@ -29,6 +29,10 @@ public class PrimeorNot {
                prime=false;
             }
             }
+            if (userInput == 0 || userInput == 1) {
+                prime=false;
+            }
+
             if (prime) 
             {
                 System.out.println(userInput+ " is a prime number.");

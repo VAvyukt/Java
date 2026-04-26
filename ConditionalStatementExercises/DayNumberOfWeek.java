@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.ConditionalStatementExercises;
+
 
 /**
  *
@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class DayNumberOfWeek {
     public static void main (String args[]) {
         Scanner DayNumber=new Scanner(System.in);
-        System.out.println("Enter a day of the week number.");
+        System.out.println("Enter a day of the week (in number form).");
         long a=DayNumber.nextLong();
         if (a==1) {
             System.out.println("Sunday");    
@@ -35,7 +35,7 @@ public class DayNumberOfWeek {
             System.out.println("Friday");
         }
         else if (a==7) {
-            System.out.println("Saterday");
+            System.out.println("Saturday");
         }
         else {
             System.out.println("Invalid");

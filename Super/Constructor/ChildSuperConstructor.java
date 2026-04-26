@@ -2,11 +2,11 @@ public class ChildSuperConstructor extends ParentSuperConstructor
 {
 	ChildSuperConstructor()
 	{
-		System.out.println("This is the child class");
 		super();
+		System.out.println("This is the child class");
 	}
 	public static void main(String args[])
 	{
-		Child cd=new Child();
+		ChildSuperConstructor cd=new ChildSuperConstructor();
 	}
 }

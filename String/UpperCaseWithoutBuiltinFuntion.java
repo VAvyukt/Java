@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.String;
+package String;
 
 import java.util.Scanner;
 

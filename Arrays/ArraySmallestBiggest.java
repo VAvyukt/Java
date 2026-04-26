@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Arrays;
+package Arrays;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class ArraySmallestBiggest {
         System.out.println("Enter a range");      
         int userInput=ArraySmallestBiggest.nextInt();
         int array[]=new int[userInput];
-        System.out.println("Enter "+userInput+" Eelements");  
+        System.out.println("Enter "+userInput+" Elements");  
         for (int i=0;i<userInput;i++)
         {
             array[i]=ArraySmallestBiggest.nextInt();

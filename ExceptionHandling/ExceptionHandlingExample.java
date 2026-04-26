@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.ExceptionHandling;
+package ExceptionHandling;
 
 /**
  *
@@ -16,15 +16,15 @@ public class ExceptionHandlingExample
     {
         try
         {
-        int a = 10; 
-        int b = 0;
-        int div = a/b;
-        System.out.println("Quotent of A(10) and B(5) is "+div);
+            int a = 10; 
+            int b = 0;
+            int div = a/b;
+            System.out.println("Quotent of A(10) and B(5) is "+div);
         }
         catch(Exception e)
         {
-        System.out.println("Divided 0 is not accepted");
+            System.out.println("In math, dividing by 0 is undefined.");
         }
-        System.out.println("Hi,Hello");
+        System.out.println("Bye!");
     }
 }

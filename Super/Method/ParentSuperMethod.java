@@ -7,6 +7,6 @@ public class ParentSuperMethod
     public static void main(String args[])
 	{
 		ParentSuperMethod psm=new ParentSuperMethod();
-		System.out.println(psm.display);
+		psm.display(); //This is void right now.
 	}
 }

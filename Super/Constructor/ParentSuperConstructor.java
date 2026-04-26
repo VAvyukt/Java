@@ -4,3 +4,4 @@ public class ParentSuperConstructor
 	{
 		System.out.println("This is the parent class");
 	}
+}

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.OOPSConcept.FourPillarsofOOPS.Inheritance.HierarchialInheritence;
+package OOPSConcept.FourPillarsofOOPS.Inheritance.HierarchialInheritence;
 
 /**
  *

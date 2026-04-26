@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.OOPSConcept.AccessSpecifiers;
-import JavaBasics.OOPSConcept.AccessSpecifiers.College.Student;
+package OOPSConcept.AccessSpecifiers;
+import OOPSConcept.AccessSpecifiers.College.Student;
 /**
  *
  * @author Nikhil.Agrawal

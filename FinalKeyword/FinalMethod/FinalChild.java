@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.FinalKeyword.FinalMethod;
+package FinalKeyword.FinalMethod;
 
 /**
  *
@@ -13,6 +13,7 @@ package JavaBasics.FinalKeyword.FinalMethod;
 
     public class FinalChild extends FinalParent
 {
+    public void display(); //There is an error here because the display() method is final.
     public void show()
     {
         System.out.println("This is Child Class Method");
@@ -21,7 +22,7 @@ package JavaBasics.FinalKeyword.FinalMethod;
     {
         FinalChild fc =new FinalChild();
         fc.show();
-        fc.display();
+        fc.display(); 
     }
 }
 

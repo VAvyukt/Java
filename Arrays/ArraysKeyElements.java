@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Arrays;
+package Arrays;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class ArraysKeyElements {
         System.out.println("Enter a range");      
         int userInput=ArrayKeyElements.nextInt();
         int array[]=new int[userInput];
-        System.out.println("Enter "+userInput+" Eelement(s)");  
+        System.out.println("Enter "+userInput+" Element(s)");  
         for (int i=0;i<userInput;i++)
         {
             array[i]=ArrayKeyElements.nextInt();
@@ -48,7 +48,22 @@ public class ArraysKeyElements {
         {
             System.out.println("Key Element is not found!");
         }
-        System.out.println("The Key Element is the "+position+" number.");
+        if(position == 1) {
+            System.out.println("The Key Element is the 1st number.");
+        }
+
+        else if(position == 2) {
+            System.out.println("The Key Element is the 2nd number.");
+        }
+
+        else if(position == 3) {
+            System.out.println("The Key Element is the 3rd number.");
+        }
+
+        else {
+            System.out.println("The Key Element is the "+position+"th number.");
+        }
+        
         System.out.println("The Key Element is repeated "+repeat+" time(s)");
     }
     }  

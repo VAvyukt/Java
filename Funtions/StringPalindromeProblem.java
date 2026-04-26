@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Funtions;
+package Funtions;
 
 import java.util.Scanner;
 
@@ -15,9 +15,9 @@ import java.util.Scanner;
 public class StringPalindromeProblem {
     public static void main (String args[]) 
     {
-        Scanner ReveseExercise =new Scanner(System.in);
+        Scanner ReverseExersice =new Scanner(System.in);
         System.out.println("Enter a String");
-        String rev=ReveseExercise.nextLine();
+        String rev=ReverseExersice.nextLine();
         String palinfunc=search(rev);
         System.out.println("The Reverse String is: " +palinfunc);
         if (palinfunc.equals(rev))

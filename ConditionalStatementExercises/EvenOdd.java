@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.ConditionalStatementExercises;
+
 
 /**
  *
@@ -15,7 +15,7 @@ public class EvenOdd {
      public static void main (String args[]) {
      Scanner EvenOdd=new Scanner(System.in);  
      System.out.println("Enter a Number");
-     double a=EvenOdd.nextDouble();
+     long a=EvenOdd.nextLong();
      if (a%2==0){
          System.out.println("Even Number");}
      else { 

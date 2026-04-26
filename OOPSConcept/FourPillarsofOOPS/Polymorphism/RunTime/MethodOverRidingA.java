@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.OOPSConcept.FourPillarsofOOPS.Polymorphism.RunTime;
+package OOPSConcept.FourPillarsofOOPS.Polymorphism.RunTime;
 
 /**
  *

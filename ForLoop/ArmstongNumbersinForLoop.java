@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.ForLoop;
+package ForLoop;
 
 import java.util.Scanner;
 

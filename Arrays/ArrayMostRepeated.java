@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaBasics.Arrays;
+package Arrays;
 import java.util.Scanner;
 /**
  *
@@ -13,10 +13,10 @@ public class ArrayMostRepeated {
     public static void main (String args[]) 
     {
         Scanner ArrayMostRepeated =new Scanner(System.in);
-        System.out.println("Enter a range");      
+        System.out.println("Enter a range greater than one");      
         int userInput=ArrayMostRepeated.nextInt();
         int array[]=new int[userInput];
-        System.out.println("Enter "+userInput+" Eelement(s)");  
+        System.out.println("Enter "+userInput+" Element(s) with at least one repeat");  
         for (int i=0;i<userInput;i++)
         {
             array[i]=ArrayMostRepeated.nextInt();

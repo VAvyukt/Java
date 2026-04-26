@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.ConditionalStatementExercises;
+
 
 /**
  *
@@ -27,17 +27,17 @@ public class Elseif {
         else if (c>a && c>b) {
             System.out.println(c+" is greatest number that you entered.");
         }
-        else if  (a==b && b==c & a==c) {
-            System.out.println("You enter all same numbers.");
+        else if  (a==b && b==c && a==c) {
+            System.out.println("All of the numbers that you entered are the same.");
         }
         else if (a==b) {
-            System.out.println(a+" is equal to "+b+ " which is the higest number");
+            System.out.println(a+" is equal to "+b+ " which is also the greatest number");
         }
         else if (a==c){
-            System.out.println(a+" is equal to "+c+ " which is the higest number");  
+            System.out.println(a+" is equal to "+c+ " which is also the greatest number");  
         }
         else {
-            System.out.println(b+" is equal to "+c+ " which is the higest number");
+            System.out.println(b+" is equal to "+c+ " which is also the greatest number");
         }
             
 

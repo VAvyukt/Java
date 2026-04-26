@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.OOPSConcept.Threading.ThreadSleep;
+package Threading.ThreadSleep;
 
 /**
  *

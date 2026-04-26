@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.InputStatement;
+package InputStatement;
 
 /**
  *
@@ -13,7 +13,7 @@ package JavaBasics.InputStatement;
 import java.util.Scanner;
 public class InputStatement {
     public static void main (String args[]) {
-        Scanner paarth = new Scanner(System.in);
+        Scanner vivaan = new Scanner(System.in);
         
 //        System.out.println("Enter two Whole Numbers");
 //        int a = paarth.nextInt();
@@ -37,8 +37,8 @@ public class InputStatement {
 ////////        System.out.println (sum);
         
         System.out.println("Enter two decimals or Whole Numbers");
-        double a = paarth.nextDouble();
-        double b = paarth.nextDouble();
+        double a = vivaan.nextDouble();
+        double b = vivaan.nextDouble();
         double sum=a+b;
         System.out.println("Here is the sum of the two decimals that you entered ");
         System.out.println (sum);

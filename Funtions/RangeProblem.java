@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Funtions;
+package Funtions;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class RangeProblem {
         System.out.println("Enter a number");
         int userInput=obj.nextInt(); 
         
-        System.out.println("Enter "+userInput+ " number(s)");
+        System.out.println("Enter "+userInput+ " unique number(s)");
         int array[]=new int[userInput];
        
         for (int i=0 ; i<userInput; i++)

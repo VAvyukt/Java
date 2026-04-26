@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.HelloWorld;
+package HelloWorld;
 
 /**
 *
@@ -13,8 +13,8 @@ package JavaBasics.HelloWorld;
 public class HelloWorld {
     public static void main (String args[])
     {
-        System.out.println("Hello, welcome to Java");
-        System.out.println("Java tutorials");
+        System.out.println("Hello, welcome to Java!");
+        System.out.println("All of the other exercises are Java tutorials!");
     }
     
 }

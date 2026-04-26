@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.String;
+package String;
 
 /**
  *
@@ -14,9 +14,9 @@ public class StringValues
 {
     public static void main (String args[]) 
     {
-        String name="Letspro";
-        String name1="Letspro";
-        String name2 =new String ("Letspro");
+        String name="Vivaan";
+        String name1="Vivaan";
+        String name2 =new String ("Vivaan");
         System.out.println(name==name1);
         System.out.println(name==name2);
         System.out.println(name.equals(name2));

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.String;
+package String;
 
 import java.util.Scanner;
 
@@ -26,6 +26,6 @@ public class ExercisewArray
             count++;
             
         }
-        System.out.println("The lenght of string is "+count);
+        System.out.println("The length of string is "+count);
     }
 }

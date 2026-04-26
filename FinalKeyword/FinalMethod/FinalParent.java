@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.FinalKeyword.FinalMethod;
+package FinalKeyword.FinalMethod;
 
 /**
  *

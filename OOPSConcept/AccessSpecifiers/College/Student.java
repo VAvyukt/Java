@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.OOPSConcept.AccessSpecifiers.College;
+package OOPSConcept.AccessSpecifiers.College;
 
 /**
  *
@@ -14,7 +14,7 @@ public class Student
 
 {
 public int ID=1;
-public String name="Paarth A";
+public String name="Vivaan A";
 //If remove public then it goes to default and it is only runnable inside this pacage so only in teacher not inMainClass
 //If change it to public then from the MainClass and teacher we can run this 
 //If change to private then it is only runnable only inside this student class

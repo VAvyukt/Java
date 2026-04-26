@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Funtions;
+package Funtions;
 
 /**
  *
@@ -17,7 +17,9 @@ public class WithArgsReturnFuntion
         System.out.println("This is (4) funtion with arguments and return type");
         int a=10;
         int b=20;
-        addition(a,b);
+        int sum = addition(a,b);
+        long sumOfSum = sum+sum;
+        System.out.println("The Sum of the Sum is: " + sumOfSum);
     }   
      public static int addition(int x,int y)
         {

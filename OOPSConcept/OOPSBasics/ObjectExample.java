@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.OOPSConcept.OOPSBasics;
+package OOPSConcept.OOPSBasics;
 
-import JavaBasics.OOPSConcept.OOPSBasics.OOPSExampleStudent;
+import OOPSConcept.OOPSBasics.OOPSExampleStudent;
 
 /**
  *

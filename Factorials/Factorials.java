@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Factorials;
+package Factorials;
 
 /**
  *
@@ -15,7 +15,7 @@ public class Factorials {
     public static void main (String args[]) 
     {
         Scanner Factorials=new Scanner(System.in);
-        System.out.println("Enter a number");
+        System.out.println("Enter a positive integer");
         int userInput=Factorials.nextInt();
         if (userInput<=0) 
         {

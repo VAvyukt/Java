@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.FinalKeyword.FinalVariable;
+package FinalKeyword.FinalVariable;
 
 /**
  *
@@ -15,7 +15,7 @@ public class FinalExample
     public static void main(String args[])
     {
         final int a =10;
-        // When you put final then you cannot increment or decemnt the variable so a++; is not allowed.
+        a++; // When you put final then you cannot increment or decemnt the variable so a++; is not allowed.
         System.out.println(a);
     }    
 }

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package JavaBasics.Arrays;
+package Arrays;
 import java.util.Scanner;
 /**
  *
@@ -18,7 +18,7 @@ public class ArrayRepeat
         System.out.println("Enter a range");      
         int userInput=ArrayRepeat.nextInt();
         int array[]=new int[userInput];
-        System.out.println("Enter "+userInput+" Eelement(s)");  
+        System.out.println("Enter "+userInput+" Element(s)");  
         for (int i=0;i<userInput;i++)
         {
             array[i]=ArrayRepeat.nextInt();
