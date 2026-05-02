@@ -6,6 +6,12 @@
 
 package ExceptionHandling;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
 /**
  *
  * @author Nikhil.Agrawal
@@ -14,6 +20,7 @@ public class ExceptionHandlingExample
 {
     public static void main(String atgs[])
     {
+        FileReader reader = null;
         try
         {
             int a = 10; 
@@ -25,6 +32,30 @@ public class ExceptionHandlingExample
         {
             System.out.println("In math, dividing by 0 is undefined.");
         }
+
+        try {
+            reader = new FileReader("file.txt");
+            var value = reader.read();
+            new SimpleDateFormat().parse("");
+        }
+
+        catch(FileNotFoundException e) {
+            System.out.println("That file does not exist.");
+        }
+        catch(IOException | ParseException e) {
+            System.out.println("Could not access/read data.");
+        }
+        finally {
+            if(reader != null) {
+                try {
+                    reader.close();
+                }
+                catch(IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
         System.out.println("Bye!");
     }
 }
