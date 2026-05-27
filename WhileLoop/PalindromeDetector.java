@@ -24,14 +24,14 @@ public class PalindromeDetector {
         }
         else {
         long temp=userInput;
-        long plaindrome=0;
+        long palindrome=0;
         while (userInput>0)
         {
             long rem=userInput%10;
-            plaindrome=(plaindrome*10)+rem;
+            palindrome=(palindrome*10)+rem;
             userInput=userInput/10;
         }   
-        if (plaindrome==temp) 
+        if (palindrome==temp) 
         {
             System.out.println(temp+ " is a plaindrome");
         }
